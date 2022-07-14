@@ -15,6 +15,7 @@
 		E45934D5288041B400EEC4E0 /* TaskListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934D4288041B400EEC4E0 /* TaskListController.swift */; };
 		E45934D8288044AE00EEC4E0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934D7288044AE00EEC4E0 /* Task.swift */; };
 		E45934DA288046C000EEC4E0 /* TasksStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934D9288046C000EEC4E0 /* TasksStorage.swift */; };
+		E45934E02880829200EEC4E0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934DF2880829200EEC4E0 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E45934D4288041B400EEC4E0 /* TaskListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListController.swift; sourceTree = "<group>"; };
 		E45934D7288044AE00EEC4E0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E45934D9288046C000EEC4E0 /* TasksStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksStorage.swift; sourceTree = "<group>"; };
+		E45934DF2880829200EEC4E0 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		E45934BF2880406600EEC4E0 /* To-Do Manager */ = {
 			isa = PBXGroup;
 			children = (
+				E45934DB2880823F00EEC4E0 /* View */,
 				E45934D6288044A100EEC4E0 /* Model */,
 				E45934C02880406600EEC4E0 /* AppDelegate.swift */,
 				E45934C22880406600EEC4E0 /* SceneDelegate.swift */,
@@ -79,6 +82,22 @@
 				E45934D9288046C000EEC4E0 /* TasksStorage.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E45934DB2880823F00EEC4E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E45934DC2880824500EEC4E0 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E45934DC2880824500EEC4E0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E45934DF2880829200EEC4E0 /* TaskCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +175,7 @@
 				E45934C12880406600EEC4E0 /* AppDelegate.swift in Sources */,
 				E45934DA288046C000EEC4E0 /* TasksStorage.swift in Sources */,
 				E45934C32880406600EEC4E0 /* SceneDelegate.swift in Sources */,
+				E45934E02880829200EEC4E0 /* TaskCell.swift in Sources */,
 				E45934D5288041B400EEC4E0 /* TaskListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
