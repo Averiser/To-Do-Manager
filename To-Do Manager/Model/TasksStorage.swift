@@ -23,11 +23,12 @@ class TasksStorage: TasksStorageProtocol {
       Task(title: "Give flowers", type: .important, status: .planned),
       Task(title: "Make phone call", type: .important, status: .planned)
     ]
+    
     return testTasks
   }
   
   func saveTasks(_ tasks: [TaskProtocol]) {
-    <#code#>
+    
   }
   
   
