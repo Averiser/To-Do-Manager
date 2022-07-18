@@ -16,6 +16,8 @@
 		E45934D8288044AE00EEC4E0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934D7288044AE00EEC4E0 /* Task.swift */; };
 		E45934DA288046C000EEC4E0 /* TasksStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934D9288046C000EEC4E0 /* TasksStorage.swift */; };
 		E45934E02880829200EEC4E0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934DF2880829200EEC4E0 /* TaskCell.swift */; };
+		E45934E228855BB400EEC4E0 /* TaskEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934E128855BB400EEC4E0 /* TaskEditController.swift */; };
+		E45934E428856E5300EEC4E0 /* TaskTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934E328856E5300EEC4E0 /* TaskTypeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E45934D7288044AE00EEC4E0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E45934D9288046C000EEC4E0 /* TasksStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksStorage.swift; sourceTree = "<group>"; };
 		E45934DF2880829200EEC4E0 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		E45934E128855BB400EEC4E0 /* TaskEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditController.swift; sourceTree = "<group>"; };
+		E45934E328856E5300EEC4E0 /* TaskTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				E45934C92880406700EEC4E0 /* Assets.xcassets */,
 				E45934CB2880406700EEC4E0 /* LaunchScreen.storyboard */,
 				E45934CE2880406700EEC4E0 /* Info.plist */,
+				E45934E128855BB400EEC4E0 /* TaskEditController.swift */,
+				E45934E328856E5300EEC4E0 /* TaskTypeController.swift */,
 			);
 			path = "To-Do Manager";
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 				E45934C12880406600EEC4E0 /* AppDelegate.swift in Sources */,
 				E45934DA288046C000EEC4E0 /* TasksStorage.swift in Sources */,
 				E45934C32880406600EEC4E0 /* SceneDelegate.swift in Sources */,
+				E45934E428856E5300EEC4E0 /* TaskTypeController.swift in Sources */,
 				E45934E02880829200EEC4E0 /* TaskCell.swift in Sources */,
 				E45934D5288041B400EEC4E0 /* TaskListController.swift in Sources */,
+				E45934E228855BB400EEC4E0 /* TaskEditController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

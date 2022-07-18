@@ -218,7 +218,7 @@ class TaskListController: UITableViewController {
     tasks[taskTypeFrom]!.insert(movedTask, at: destinationIndexPath.row)
     // если секция изменилась, изменяем тип задачи в соответствии с новой позицией
     if taskTypeFrom != taskTypeTo {
-      tasks[taskTypeTo]![destinationIndexPath.row].type = taskTypeTo
+      tasks[taskTypeTo]![destinationIndexPath.row].type == taskTypeTo
     }
     // update data
     tableView.reloadData()
