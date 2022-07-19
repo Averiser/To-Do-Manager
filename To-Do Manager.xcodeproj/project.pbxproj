@@ -18,6 +18,8 @@
 		E45934E02880829200EEC4E0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934DF2880829200EEC4E0 /* TaskCell.swift */; };
 		E45934E228855BB400EEC4E0 /* TaskEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934E128855BB400EEC4E0 /* TaskEditController.swift */; };
 		E45934E428856E5300EEC4E0 /* TaskTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45934E328856E5300EEC4E0 /* TaskTypeController.swift */; };
+		E46617BA2885BDB100D05800 /* TaskTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46617B82885BDB100D05800 /* TaskTypeCell.swift */; };
+		E46617BB2885BDB100D05800 /* TaskTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46617B92885BDB100D05800 /* TaskTypeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		E45934DF2880829200EEC4E0 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		E45934E128855BB400EEC4E0 /* TaskEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditController.swift; sourceTree = "<group>"; };
 		E45934E328856E5300EEC4E0 /* TaskTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeController.swift; sourceTree = "<group>"; };
+		E46617B82885BDB100D05800 /* TaskTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeCell.swift; sourceTree = "<group>"; };
+		E46617B92885BDB100D05800 /* TaskTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTypeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +75,12 @@
 				E45934C02880406600EEC4E0 /* AppDelegate.swift */,
 				E45934C22880406600EEC4E0 /* SceneDelegate.swift */,
 				E45934D4288041B400EEC4E0 /* TaskListController.swift */,
+				E45934E128855BB400EEC4E0 /* TaskEditController.swift */,
+				E45934E328856E5300EEC4E0 /* TaskTypeController.swift */,
 				E45934C62880406600EEC4E0 /* Main.storyboard */,
 				E45934C92880406700EEC4E0 /* Assets.xcassets */,
 				E45934CB2880406700EEC4E0 /* LaunchScreen.storyboard */,
 				E45934CE2880406700EEC4E0 /* Info.plist */,
-				E45934E128855BB400EEC4E0 /* TaskEditController.swift */,
-				E45934E328856E5300EEC4E0 /* TaskTypeController.swift */,
 			);
 			path = "To-Do Manager";
 			sourceTree = "<group>";
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				E45934DF2880829200EEC4E0 /* TaskCell.swift */,
+				E46617B82885BDB100D05800 /* TaskTypeCell.swift */,
+				E46617B92885BDB100D05800 /* TaskTypeCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 			files = (
 				E45934CD2880406700EEC4E0 /* LaunchScreen.storyboard in Resources */,
 				E45934CA2880406700EEC4E0 /* Assets.xcassets in Resources */,
+				E46617BB2885BDB100D05800 /* TaskTypeCell.xib in Resources */,
 				E45934C82880406600EEC4E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +192,7 @@
 				E45934E02880829200EEC4E0 /* TaskCell.swift in Sources */,
 				E45934D5288041B400EEC4E0 /* TaskListController.swift in Sources */,
 				E45934E228855BB400EEC4E0 /* TaskEditController.swift in Sources */,
+				E46617BA2885BDB100D05800 /* TaskTypeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
