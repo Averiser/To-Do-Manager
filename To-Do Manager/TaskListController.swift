@@ -24,6 +24,12 @@ class TaskListController: UITableViewController {
           return task1position < task2position
         }
       }
+      // сохранение задач
+      var savingArray: [TaskProtocol] = []
+      tasks.forEach { _, value in
+        savingArray += value
+      }
+      tasksStorage.saveTasks(savingArray)
     }
   }
   
@@ -38,8 +44,8 @@ class TaskListController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        loadTasks()
+//      Не хватает указания на удаление строки (сейчас закомментирована) из viewDidLoad, иначе приложение продолжает затирать данные 
+//        loadTasks()
       // кнопка активации режима редактирования
       navigationItem.leftBarButtonItem = editButtonItem
     }
@@ -262,6 +268,19 @@ class TaskListController: UITableViewController {
         tasks[type]?.append(newTask)
         tableView.reloadData()
       }
+    }
+  }
+  
+  // получение списка задач, их разбор и установка в свойство tasks
+  func setTasks(_ tasksCollection: [TaskProtocol]) {
+    // подготовка коллекции с задачами
+    // будем использовать только те задачи, для которых определена секция
+    sectionsTypesPosition.forEach { taskType in
+      tasks[taskType] = []
+    }
+    // загрузка и разбор задач из хранилища
+    tasksCollection.forEach { task in
+      tasks[task.type]?.append(task)
     }
   }
   

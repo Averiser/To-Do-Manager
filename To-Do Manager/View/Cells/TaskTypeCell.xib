@@ -18,26 +18,26 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Type title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVr-g9-dN1">
-                        <rect key="frame" x="20" y="11" width="293" height="43"/>
+                        <rect key="frame" x="20" y="11" width="293" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="yNp-fQ-nmY">
-                        <rect key="frame" x="20" y="43" width="293" height="16"/>
+                        <rect key="frame" x="20" y="36.5" width="293" height="22.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" systemColor="systemGrayColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="ZVr-g9-dN1" secondAttribute="trailing" id="2EX-C8-Ns0"/>
+                    <constraint firstItem="ZVr-g9-dN1" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="4h5-Kk-hdb"/>
+                    <constraint firstItem="ZVr-g9-dN1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="6hB-5M-VMy"/>
                     <constraint firstItem="yNp-fQ-nmY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="BhQ-6P-6ve"/>
                     <constraint firstAttribute="bottomMargin" secondItem="yNp-fQ-nmY" secondAttribute="bottom" id="HIb-Az-EHp"/>
-                    <constraint firstItem="ZVr-g9-dN1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ejn-h7-9gL"/>
-                    <constraint firstItem="ZVr-g9-dN1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="hD8-ce-y6R"/>
                     <constraint firstAttribute="trailingMargin" secondItem="yNp-fQ-nmY" secondAttribute="trailing" id="khV-5P-mYn"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="ZVr-g9-dN1" secondAttribute="bottom" constant="5" id="sfy-6K-T8w"/>
+                    <constraint firstItem="yNp-fQ-nmY" firstAttribute="top" secondItem="ZVr-g9-dN1" secondAttribute="bottom" constant="5" id="nCO-jS-bdG"/>
+                    <constraint firstItem="ZVr-g9-dN1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="uuh-aZ-W4L"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
